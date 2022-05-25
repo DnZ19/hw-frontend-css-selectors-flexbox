@@ -1,6 +1,18 @@
+:root {
+    --padding-header:20px;
+}
 * {
     box-sizing: border-box;
     font-family: arial;
+    padding:0px;
+    margin:0px;
+
+
+}
+
+a, a:active, a:visited {
+    color:unset;
+    text-decoration: none;
 }
 
 body {
@@ -28,8 +40,43 @@ h3 {
     flex-direction: column;
     align-items: center;
     min-width: 600px;
+    padding:40px;
 }
 
+header {
+    display: flex;
+    background-color:black;
+    color:white;
+
+    justify-content: space-between;
+
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:var(--padding-header);
+
+}
+header nav {
+    display: flex;
+
+
+}
+header nav a {
+    padding:var(--padding-header);
+    color:white;
+    background-color:black;
+    transition:background-color 0.5s ease-out;
+
+
+
+}
+
+
+header nav a:hover {
+    background:grey;
+}
 
 section {
     margin-top:60px;
@@ -53,8 +100,8 @@ section article {
     line-height:20px;
     text-align: center;
 
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:20px;
+    margin-right:20px;
 }
 
 section article:first-child {
@@ -63,3 +110,4 @@ section article:first-child {
 section article:last-child {
     margin-right:0px;
 }
+
