@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F3D9;
+
+
+
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.container {
+    width:100%;
+    height:100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+
+}
+
+section article {
+    border-radius:5px;
+    padding:10px;
+    background-color:#C16E70;
+    height:350px;
+    flex-basis:280px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height:20px;
+}

@@ -3,3 +3,56 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+* {
+    box-sizing: border-box;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    justify-content:space-between;
+}
+
+.three ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width:300px;
+}
+
+.four form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.five {
+    display: flex;
+    background-color: aliceblue;
+    flex-wrap:wrap;
+    flex-direction: row;
+
+
+}
+
+.five article {
+    /*
+    harde 400px gebruikt, als  ik calc(100%/3) gebruik dan blijft het relatief tov beschikbare
+     ruimte ipv de oorsrponkelijke 1200px, jij een idee?
+     */
+    flex-basis:400px;
+    background-color: rebeccapurple;
+
+    flex-grow: 1;
+}
+
