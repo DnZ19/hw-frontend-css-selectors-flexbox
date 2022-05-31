@@ -1,0 +1,12 @@
+Je hebt een mooi resultaat. Let er wel op dat je normaliter met padding: 0; en margin: 0; wilt beginnen om daar plaatsingsellende mee te voorkomen in de toekomst :)
+Je mist volgens mij de laatste opdracht bij 1, die five-small, maar zo te zien kan jij die ook wel :)
+Bij opdracht 2, als je in je css padding: 0; of margin: 0; zet kan je de px weglaten...de edittor geeft dat ook weer.
+Bij de font-family moet je een generic default plaatsen, maar verder kan dit ook. Maar mocht je font uitvallen heeft de computer geen alternatief en ligt je site er meteen slordig bij...
+Ook hier geldt, start altijd met:
+
+* {
+padding: 0;
+margin: 0;
+}
+
+Verder allemaal top volgens mij :)
